@@ -1,0 +1,47 @@
+{
+  "name": "@kengx/anteraja",
+  "version": "1.1.0-beta.2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KenGx/Anteraja-Sdk.git"
+  },
+  "description": "",
+  "main": "./build/src",
+  "types": "./build/src/index.d.ts",
+  "scripts": {
+    "test": "jest ./test",
+    "prepare": "npm run build",
+    "build": "tsc",
+    "prettier": "prettier --write .",
+    "lint": "prettier --check . && eslint . --ext .ts",
+    "prebuild": "npm run clean",
+    "clean": "rm -rf ./build"
+  },
+  "author": "KenGx",
+  "license": "MIT",
+  "files": [
+    "build/package.json",
+    "build/src/**"
+  ],
+  "dependencies": {
+    "@types/node-fetch": "^2.5.10",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.4",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
+    "eslint": "^8.49.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2",
+    "jest": "<30.0.0-0",
+    "ts-jest": "<30.0.0-0"
+  },
+  "bugs": {
+    "url": "https://github.com/KenGx/Anteraja-Sdk/issues"
+  },
+  "homepage": "https://github.com/KenGx/Anteraja-Sdk#readme",
+  "directories": {
+    "test": "test"
+  }
+}
