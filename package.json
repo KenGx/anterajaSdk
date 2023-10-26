@@ -3,7 +3,7 @@
   "version": "1.1.0-beta.2",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KenGx/Anteraja-Sdk.git"
+    "url": "git+https://github.com/KenGx/anterajaSdk.git"
   },
   "description": "",
   "main": "./build/src",
@@ -38,9 +38,9 @@
     "ts-jest": "<30.0.0-0"
   },
   "bugs": {
-    "url": "https://github.com/KenGx/Anteraja-Sdk/issues"
+    "url": "https://github.com/KenGx/anterajaSdk/issues"
   },
-  "homepage": "https://github.com/KenGx/Anteraja-Sdk#readme",
+  "homepage": "https://github.com/KenGx/anterajaSdk#readme",
   "directories": {
     "test": "test"
   }
