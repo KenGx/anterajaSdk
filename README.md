@@ -19,5 +19,5 @@ const anterAja = new AnterAja({
         },
       })
 
-console.log('response:', data)
+console.log('response:', servicesRoutes)
 ```
