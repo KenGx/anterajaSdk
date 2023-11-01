@@ -1,10 +1,10 @@
 /node_modules/*
-
-package-lock.json
+/scripts/*
 /build/*
-
 /examples/**/node_modules
 /examples/**/package-lock.json
 /examples/**/.env
 
+
+package-lock.json
 .vscode
